@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    background-color: #222222;
+    width: 50vw;
+    padding:10px;
+    margin:auto;
+    color:white;
+    display: grid;
+    gap:10px;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows:repeat(6, 60px);
+}
+
+header, section, footer{
+    border: 5px solid black;
+    border-radius: 5px;
+    background-color:#635CDD;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+header, footer{
+    grid-column: span 3;
+}
+
+.sidebar{
+    grid-row: span 4
+}
+
+.content{
+    grid-row:span 2
+}
+
+#content-1{
+    grid-column: span 2;
+}
