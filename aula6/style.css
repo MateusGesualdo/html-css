@@ -3,6 +3,10 @@ body {
     font-family: "Asimovian", sans-serif;
 }
 
+:root{
+    --grid-gap: 35px
+}
+
 main {
     background-color: rgb(38, 38, 38);
     width: 50vw;
@@ -70,6 +74,3 @@ header {
     }
 }
 
-:root{
-    --grid-gap: 35px
-}
