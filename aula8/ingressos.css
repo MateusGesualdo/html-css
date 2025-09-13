@@ -1,0 +1,14 @@
+main{
+    display:grid;
+    grid-template-columns: 70vw 30vw;
+}
+
+form{
+    border:solid white;
+    padding: 10px
+}
+
+iframe{
+    width: 200px;
+    height: 100px;
+}

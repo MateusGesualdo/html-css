@@ -1,0 +1,29 @@
+*{
+    margin:0;
+}
+
+body{
+    color:white;
+    background:#1E2431;
+}
+
+header{
+    background:#273F69;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    font-family: "Bitcount Grid Double", system-ui;
+    padding-left: 1em;
+    font-size: 50px
+}
+
+nav a{
+    color:white;
+    margin-right: 1em;
+    font-size:25px
+}
+
+
